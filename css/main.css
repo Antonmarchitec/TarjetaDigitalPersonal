@@ -122,12 +122,131 @@
 
 /*******************************************
 *******************************************/
-@media (min-width: 320px) and (max-width: 423px) {
+@media (min-width: 320px) and (max-width: 720px) {
   .continer__main {
-    background: orange;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    background-image: url(../images/background.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixeda;
   }
   .continer__main .main__base {
-    background: green;
+    width: 100%;
+    height: 100%;
+    padding: 40px 0px;
+    background: rgba(0, 16, 42, 0.7058823529);
+  }
+  .continer__main .main__base .container {
+    width: 100%;
+    padding: 10px 0px;
+    margin: auto;
+  }
+  .continer__main .main__base .container .container__photo {
+    width: 110px;
+    height: 110px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+  }
+  .continer__main .main__base .container .container__legend {
+    width: 80%;
+    margin: 10px auto;
+    background: rgba(0, 16, 42, 0.7647058824);
+    text-align: center;
+    padding: 18px 0px;
+    transform: skew(10deg);
+    box-shadow: -5px 0px 0px white;
+  }
+  .continer__main .main__base .container .container__legend .legend__title {
+    font-size: 24px;
+    font-weight: 700;
+    transform: skew(-10deg);
+  }
+  .continer__main .main__base .container .container__legend .legend__legend {
+    margin-top: -5px;
+    transform: skew(-10deg);
+    font-size: 16px;
+  }
+  .continer__main .main__base .container .containerBase__block {
+    width: 100%;
+    padding: 10px 0px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .continer__main .main__base .container .containerBase__block .baseBlock {
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .continer__main .main__base .container .containerBase__block .baseBlock .container__block {
+    width: 100%;
+    padding: 8px 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .continer__main .main__base .container .containerBase__block .baseBlock .container__block .base__icon {
+    background: rgba(8, 14, 62, 0.8392156863);
+    padding: 10px;
+    transform: skewX(10deg);
+    box-shadow: -4px 0px 0px #000000;
+    border-radius: 5px;
+    transition: 0.3s all ease-in-out;
+  }
+  .continer__main .main__base .container .containerBase__block .baseBlock .container__block .base__icon .block__icon {
+    width: 45px;
+    height: 45px;
+    transform: skewX(-10deg);
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .continer__main .main__base .container .containerBase__block .baseBlock .container__block a {
+    width: 200px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    background: #00102a;
+    padding: 15px;
+    transform: skew(10deg);
+    box-shadow: 5px 0px 0px rgb(255, 255, 255);
+    transition: 0.3s all ease;
+  }
+  .continer__main .main__base .container .containerBase__block .baseBlock .container__block a .block__legend {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    transform: skew(-10deg);
+  }
+  .continer__main .main__base .container .containerBase__block .baseBlock .container__block:hover .base__icon {
+    background: #02e7a2;
+  }
+  .continer__main .main__base .container .containerBase__block .baseBlock .container__block:hover a {
+    width: 250px;
+    box-shadow: 5px 0px 0px #02e7a2;
+  }
+  .continer__main .main__base .footer__text {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding: 0px 0px;
+    line-height: 20px;
+  }
+  .continer__main .main__base .footer__text .span {
+    color: aquamarine;
   }
 }
 * {
