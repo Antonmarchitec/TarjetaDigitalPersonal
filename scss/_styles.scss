@@ -41,8 +41,16 @@
                     transform: skew(-10deg);
                 }
                 .legend__legend{
+                    font-size: 20px;
                     margin-top: -5px;
                     transform: skew(-10deg);
+                }
+
+                .legend__description{
+                    margin-top: 15px;
+                    font-size: 14px;
+                    transform: skew(-10deg);
+                    color: rgb(187, 187, 255);
                 }
             }
         
