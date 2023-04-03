@@ -45,7 +45,8 @@
   transform: skew(-10deg);
 }
 .continer__main .main__base .container .container__legend .legend__description {
-  margin-top: 15px;
+  width: 90%;
+  margin: 15px auto;
   font-size: 14px;
   transform: skew(-10deg);
   color: rgb(187, 187, 255);
