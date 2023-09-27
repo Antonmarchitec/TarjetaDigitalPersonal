@@ -130,10 +130,10 @@
 
 /*******************************************
 *******************************************/
-@media (min-width: 320px) and (max-width: 720px) {
+@media (min-width: 320px) and (max-width: 423px) {
   .continer__main {
     width: 100%;
-    max-width: 1440px;
+    max-width: initial;
     margin: auto;
     background-image: url(../images/background.jpg);
     background-size: 100% 100%;
@@ -151,21 +151,21 @@
     margin: auto;
   }
   .continer__main .main__base .container .container__photo {
-    width: 110px;
-    height: 110px;
+    width: 120px;
+    height: 120px;
     border: 3px solid rgb(255, 255, 255);
     border-radius: 50%;
     overflow: hidden;
     margin: auto;
   }
   .continer__main .main__base .container .container__legend {
-    width: 80%;
-    margin: 10px auto;
+    width: 90%;
+    margin: 15px auto;
     background: rgba(0, 16, 42, 0.7647058824);
     text-align: center;
-    padding: 18px 0px;
-    transform: skew(10deg);
-    box-shadow: -5px 0px 0px white;
+    padding: 15px 0px;
+    transform: initial;
+    box-shadow: 0px 2px 5px white;
   }
   .continer__main .main__base .container .container__legend .legend__title {
     font-size: 24px;
@@ -182,31 +182,35 @@
     padding: 10px 0px;
     margin: 20px auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    background: yellow;
   }
   .continer__main .main__base .container .containerBase__block .baseBlock {
-    width: 100%;
+    width: 50%;
     padding: 10px 0px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
+    background: red;
   }
   .continer__main .main__base .container .containerBase__block .baseBlock .container__block {
-    width: 100%;
+    width: 120px;
     padding: 8px 10px;
     margin: 5px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: grey;
   }
   .continer__main .main__base .container .containerBase__block .baseBlock .container__block .base__icon {
     background: rgba(8, 14, 62, 0.8392156863);
     padding: 10px;
-    transform: skewX(10deg);
+    transform: skewX(-5deg);
     box-shadow: -4px 0px 0px #000000;
     border-radius: 5px;
     transition: 0.3s all ease-in-out;
@@ -214,27 +218,29 @@
   .continer__main .main__base .container .containerBase__block .baseBlock .container__block .base__icon .block__icon {
     width: 45px;
     height: 45px;
-    transform: skewX(-10deg);
+    transform: skewX(5deg);
     border-radius: 50%;
     overflow: hidden;
   }
   .continer__main .main__base .container .containerBase__block .baseBlock .container__block a {
-    width: 200px;
+    margin-top: 5px;
+    width: 100%;
     text-decoration: none;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     background: #00102a;
-    padding: 15px;
-    transform: skew(10deg);
+    padding: 5px;
+    transform: skew(-5deg);
     box-shadow: 5px 0px 0px rgb(255, 255, 255);
     transition: 0.3s all ease;
+    background: green;
   }
   .continer__main .main__base .container .containerBase__block .baseBlock .container__block a .block__legend {
-    width: 150px;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 14px;
     transform: skew(-10deg);
   }
   .continer__main .main__base .container .containerBase__block .baseBlock .container__block:hover .base__icon {
