@@ -213,32 +213,29 @@
                 }
             
                 .containerBase__block{
-                    width: 100%;
+                    width: 90%;
                     padding: 10px 0px;
-                    margin: 20px auto;
+                    margin: auto;
                     display: flex;
                     flex-direction:row;
-                    justify-content:flex-start;
+                    justify-content:center;
                     align-items: center;
-                    background: yellow;
                     .baseBlock{
                         width: 50%;
                         padding:10px 0px;
                         display: flex;
                         flex-direction: row;
                         flex-wrap: wrap;
-                        justify-content: flex-start;
+                        justify-content: center;
                         align-items: center;
-                        background: red;
                         .container__block{
                             width:120px;
-                            padding: 8px 10px;
+                            padding: 8px 0px;
                             margin:5px;
                             display: flex;
                             flex-direction: column;
                             justify-content: center;
                             align-items: center;
-                            background: grey;
                             .base__icon{
                                 background: #080e3ed6;
                                 padding: 10px;
@@ -268,7 +265,6 @@
                                 transform: skew(-5deg);
                                 box-shadow: 5px 0px 0px rgb(255, 255, 255);
                                 transition: 0.3s all ease;
-                                background: green;
                                 .block__legend{
                                     width:auto;
                                     display: flex;
@@ -284,7 +280,7 @@
                                     background: #02e7a2;
                                 }
                                 a{
-                                    width: 250px;
+                                    width: 120px;
                                     box-shadow: 5px 0px 0px #02e7a2;
     
                                 }
