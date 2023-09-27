@@ -161,20 +161,21 @@
   .continer__main .main__base .container .container__legend {
     width: 80%;
     margin: 15px auto;
-    background: rgba(0, 16, 42, 0.7647058824);
+    background: rgba(0, 16, 42, 0.6235294118);
     text-align: center;
     padding: 15px;
-    transform: skewX(-5deg);
+    transform: skewX(0deg);
     box-shadow: 1px 2px 2px white;
+    border-radius: 10px 10px;
   }
   .continer__main .main__base .container .container__legend .legend__title {
     font-size: 24px;
     font-weight: 700;
-    transform: skew(-10deg);
+    transform: skew(-5deg);
   }
   .continer__main .main__base .container .container__legend .legend__legend {
     margin-top: -5px;
-    transform: skew(-10deg);
+    transform: skew(-5deg);
     font-size: 16px;
   }
   .continer__main .main__base .container .containerBase__block {
@@ -237,7 +238,7 @@
     justify-content: center;
     align-items: center;
     font-size: 16px;
-    transform: skew(-10deg);
+    transform: skew(-5deg);
   }
   .continer__main .main__base .container .containerBase__block .baseBlock .container__block:hover .base__icon {
     background: #02e7a2;
