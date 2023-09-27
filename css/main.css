@@ -130,7 +130,7 @@
 
 /*******************************************
 *******************************************/
-@media (min-width: 320px) and (max-width: 423px) {
+@media (min-width: 320px) and (max-width: 720px) {
   .continer__main {
     width: 100%;
     max-width: initial;
