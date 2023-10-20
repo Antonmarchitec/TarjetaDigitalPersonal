@@ -51,6 +51,10 @@
   transform: skew(-10deg);
   color: rgb(187, 187, 255);
 }
+.continer__main .main__base .container .container__legend .legend__description .link__digitizing {
+  color: rgb(10, 181, 181);
+  text-decoration: none;
+}
 .continer__main .main__base .container .containerBase__block {
   width: 70%;
   padding: 10px 0px;

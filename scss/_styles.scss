@@ -47,11 +47,19 @@
                 }
 
                 .legend__description{
-                    width: 90%;
+                    width: 90%; 
                     margin: 15px auto;
                     font-size: 14px;
                     transform: skew(-10deg);
                     color: rgb(187, 187, 255);
+                    .link__digitizing{
+                        color: rgb(10, 181, 181);
+                        text-decoration: none;
+                    }
+                    .link__digitizing:hover{
+                        
+                        
+                    }
                 }
             }
         
